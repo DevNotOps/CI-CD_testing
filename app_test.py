@@ -12,4 +12,4 @@ def test_home_page(client):
     response = client.get('/')
 
     assert response.status_code == 200
-    assert response.data.decode('utf-8') == 'Hello, World!'
+    assert response.data.decode('utf-8') == 'DevOps is awesome!'
